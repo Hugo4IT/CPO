@@ -1,4 +1,19 @@
-# CPO
+# CPO (CoPy at Offset)
+
+### Installation
+
+##### Windows
+  
+Make sure you have [git](https://git-scm.com/download/win) installed. Then execute this command (as administrator).
+
+```bash
+git clone https://github.com/Hugo4IT/CPO
+cd CPO/bin
+mkdir C:/CPO
+mv cpo.exe C:/CPO/cpo.exe
+```
+
+### Example
 
 This tool extracts data from a file between two hexadecimal offsets. See this example, we have this text file:
 
