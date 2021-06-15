@@ -1,5 +1,21 @@
 # CPO (CoPy at Offset) 1.0
 
+### Building
+
+Only the windows binaries are available in the [Releases](https://github.com/Hugo4IT/CPO/releases/), so you'll have to build the mac and linux versions yourself. To do that, install [rust](https://rustup.rs/), afterwards, clone the repo and open a terminal in the root folder and run:
+
+```bash
+cargo build --release
+```
+
+You can now copy the executable (The rest is unnecessary garbage) from `<ROOT>/target/release` to your preferred location and add it to PATH.
+
+You can also directly run the tool, if you want that for some reason. Open the terminal in the root directory once again but this time run:
+
+```bash
+cargo run -- ARGUMENTS HERE
+```
+
 ### Example
 
 This tool extracts data from a file between two hexadecimal offsets. See this example, we have this text file:
